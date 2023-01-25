@@ -1,0 +1,20 @@
+var resultTableSTR = '';
+	for(var i = 0;i < cs.length;i++){
+		resultTableSTR += '<tr>'+'<td>'+checkTableImg(cs[i])+'<p>'+cs[i]+'</td>';
+
+		for(var j = 2;j < 11;j++){
+			var checkColor;
+			var calLength = resultCalSort.length;
+			if(resultCal[i][j] >= parseInt(resultCalSort[0])) checkColor = 1;
+			else if(resultCal[i][j] >= parseInt(resultCalSort[Math.round(calLength/4)])) checkColor = 2;
+			else if(resultCal[i][j] >= parseInt(resultCalSort[Math.round(calLength/2)])) checkColor = 3;
+			else if(resultCal[i][j] >= parseInt(resultCalSort[Math.round((calLength/4)*3)])) checkColor = 4;
+			else checkColor = 5;
+						
+			resultTableSTR += '<td class=\'c'+checkColor+'\'>'+resultCal[i][j]+'%</td>';
+		}
+		resultTableSTR += '</tr>';
+
+	}
+
+	resultTable.innerHTML = resultTableSTR;

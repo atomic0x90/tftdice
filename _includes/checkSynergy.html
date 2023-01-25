@@ -1,0 +1,332 @@
+
+	if(name == '갈리오'){
+		//민간인, 마스코트
+		//갈리오, 시비르, 잔나
+		//갈리오, 나서스, 말파이트, 유미, 알리스타, 누누
+
+		//어떤 챔피언에 쓰면 갈리오가 나오는가?
+		for(item of 민간인) checkSynergy.add(item);
+		for(item of 마스코트) checkSynergy.add(item);
+
+		
+	}
+	else if(name == '갱플랭크'){
+		//결투가, 우세 
+		//갱플랭크, 케일, 야스오, 피오라, 닐라, 베인, 제드
+		//갱플랭크, 리신, 말파이트
+
+		for(item of 결투가) checkSynergy.add(item);
+		for(item of 우세) checkSynergy.add(item);
+
+
+	}
+	else if(name == '나서스'){
+		//동물특공대, 마스코트
+		//나서스, 사일러스, 징크스, 리븐, 베인, 미스 포츈
+		//갈리오, 나서스, 말파이트, 유미, 알리스타, 누누
+		for(item of 동물특공대) checkSynergy.add(item);
+		for(item of 마스코트) checkSynergy.add(item);
+	}
+	else if(name == '누누'){
+		//기계유망주, 마스코트
+		//룰루, 뽀삐, 애니, 조이, 누누
+		//갈리오, 나서스, 말파이트, 유미, 알리스타, 누누
+		for(item of 기계유망주) checkSynergy.add(item);
+		for(item of 마스코트) checkSynergy.add(item);
+	}
+	else if(name == '닐라'){
+		//별 수호자, 결투가
+		//럭스, 렐, 유미, 닐라, 카이사, 에코, 탈리야, 신드라
+		//갱플랭크, 케일, 야스오, 피오라, 닐라, 베인, 제드
+		for(item of 별수호자) checkSynergy.add(item);
+		for(item of 결투가) checkSynergy.add(item);
+	}
+	else if(name == '드레이븐'){
+		//메카, 에이스
+		//오공, 드레이븐, 잭스, 세트, 레오나
+		//드레이븐, 미스 포츈, 사미라, 모데카이저
+		for(item of 메카) checkSynergy.add(item);
+		for(item of 에이스) checkSynergy.add(item);
+	}
+	else if(name == '람머스'){
+		//위협
+		//람머스, 벨코즈, 초가스, 벨베스, 아우렐리온 솔, 자크, 우르곳, 피들스틱
+		for(item of 위협) checkSynergy.add(item);
+	}
+	else if(name == '럭스'){
+		//별 수호자, 주문투척자
+		//럭스, 렐, 유미, 닐라, 카이사, 에코, 탈리야, 신드라
+		//럭스, 애니, 르블랑, 소나, 탈리야, 잔나
+		//탈리야 중복
+		for(item of 별수호자) checkSynergy.add(item);
+		for(item of 주문투척자) checkSynergy.add(item);
+	}
+	else if(name == '레넥톤'){
+		//레이저단, 싸움꾼
+		//레넥톤, 애쉬, 야스오, 세나, 세주아니, 제드, 모데카이저
+		//레넥톤, 블리츠크랭크, 리신, 바이, 리븐, 잭스, 세주아니
+		//세주아니 중복
+		for(item of 레이저단) checkSynergy.add(item);
+		for(item of 싸움꾼) checkSynergy.add(item);
+	}
+	else if(name == '레오나'){
+		//메카, 무법자, 방패대
+		for(item of 메카) checkSynergy.add(item);
+		for(item of 무법자) checkSynergy.add(item);
+		for(item of 방패대) checkSynergy.add(item);
+	}
+	else if(name == '렐'){
+		//별 수호자, 엄호대
+		for(item of 별수호자) checkSynergy.add(item);
+		for(item of 엄호대) checkSynergy.add(item);
+	}
+	else if(name == '룰루'){
+		//기계유망주, 선의
+		for(item of 기계유망주) checkSynergy.add(item);
+		for(item of 선의) checkSynergy.add(item);
+	}
+	else if(name == '르블랑'){
+		//자동방어체계, 주문투척자, 해커
+		for(item of 자동방어체계) checkSynergy.add(item);
+		for(item of 주문투척자) checkSynergy.add(item);
+		for(item of 해커) checkSynergy.add(item);
+	}
+	else if(name == '리신'){
+		//우세, 선의, 싸움꾼
+		for(item of 우세) checkSynergy.add(item);
+		for(item of 선의) checkSynergy.add(item);
+		for(item of 싸움꾼) checkSynergy.add(item);
+	}
+	else if(name == '리븐'){
+		//동물특공대, 싸움꾼, 엄호대
+		for(item of 동물특공대) checkSynergy.add(item);
+		for(item of 싸움꾼) checkSynergy.add(item);
+		for(item of 엄호대) checkSynergy.add(item);
+	}
+	else if(name == '말파이트'){
+		//우세, 마스코트
+		for(item of 우세) checkSynergy.add(item);
+		for(item of 마스코트) checkSynergy.add(item);
+	}
+	else if(name == '모데카이저'){
+		//레이저단, 에이스
+		for(item of 레이저단) checkSynergy.add(item);
+		for(item of 에이스) checkSynergy.add(item);
+	}
+	else if(name == '미스 포츈'){
+		//동물특공대, 에이스
+		for(item of 동물특공대) checkSynergy.add(item);
+		for(item of 에이스) checkSynergy.add(item);
+	}
+	else if(name == '바이'){
+		//지하세계, 방패대, 싸움꾼
+		for(item of 지하세계) checkSynergy.add(item);
+		for(item of 방패대) checkSynergy.add(item);
+		for(item of 싸움꾼) checkSynergy.add(item);
+	}
+	else if(name == '베인'){
+		//동물특공대, 결투가, 정찰단
+		for(item of 동물특공대) checkSynergy.add(item);
+		for(item of 결투가) checkSynergy.add(item);
+		for(item of 정찰단) checkSynergy.add(item);
+	}
+	else if(name == '벨베스'){
+		//위협
+		for(item of 위협) checkSynergy.add(item);
+	}
+	else if(name == '벨코즈'){
+		//위협
+		for(item of 위협) checkSynergy.add(item);
+	}
+	else if(name == '블리츠크랭크'){
+		//자동방어체계, 싸움꾼
+		for(item of 자동방어체계) checkSynergy.add(item);
+		for(item of 싸움꾼) checkSynergy.add(item);
+	}
+	else if(name == '비에고'){
+		//황소부대, 무법자
+		for(item of 황소부대) checkSynergy.add(item);
+		for(item of 무법자) checkSynergy.add(item);
+	}
+	else if(name == '뽀삐'){
+		//기계유망주, 엄호대
+		for(item of 기계유망주) checkSynergy.add(item);
+		for(item of 엄호대) checkSynergy.add(item);
+	}
+	else if(name == '사미라'){
+		//지하세계, 에이스, 특등사수
+		for(item of 지하세계) checkSynergy.add(item);
+		for(item of 에이스) checkSynergy.add(item);
+		for(item of 특등사수) checkSynergy.add(item);
+	}
+	else if(name == '사일러스'){
+		//동물특공대, 무법자
+		for(item of 동물특공대) checkSynergy.add(item);
+		for(item of 무법자) checkSynergy.add(item);
+	}
+	else if(name == '세나'){
+		//레이저단, 특등사수
+		for(item of 레이저단) checkSynergy.add(item);
+		for(item of 특등사수) checkSynergy.add(item);
+	}
+	else if(name == '세주아니'){
+		//레이저단, 싸움꾼
+		for(item of 레이저단) checkSynergy.add(item);
+		for(item of 싸움꾼) checkSynergy.add(item);
+	}
+	else if(name == '세트'){
+		//메카, 엄호대
+		for(item of 메카) checkSynergy.add(item);
+		for(item of 엄호대) checkSynergy.add(item);
+	}
+	else if(name == '소나'){
+		//지하세계, 선의, 주문투척자
+		for(item of 지하세계) checkSynergy.add(item);
+		for(item of 선의) checkSynergy.add(item);
+		for(item of 주문투척자) checkSynergy.add(item);
+	}
+	else if(name == '소라카'){
+		//자동방어체계, 선의
+		for(item of 자동방어체계) checkSynergy.add(item);
+		for(item of 선의) checkSynergy.add(item);
+	}
+	else if(name == '시비르'){
+		//민간인, 특등사수
+		for(item of 민간인) checkSynergy.add(item);
+		for(item of 특등사수) checkSynergy.add(item);
+	}
+	else if(name == '신드라'){
+		//별 수호자, 선의
+		for(item of 별수호자) checkSynergy.add(item);
+		for(item of 선의) checkSynergy.add(item);
+	}
+	else if(name == '아우렐리온 솔'){
+		//위협
+		for(item of 위협) checkSynergy.add(item);
+	}
+	else if(name == '아펠리오스'){
+		//병기고, 황소부대, 특등사수
+		for(item of 병기고) checkSynergy.add(item);
+		for(item of 황소부대) checkSynergy.add(item);
+		for(item of 특등사수) checkSynergy.add(item);
+	}
+	else if(name == '알리스타'){
+		//황소부대, 마스코트, 방패대
+		for(item of 황소부대) checkSynergy.add(item);
+		for(item of 마스코트) checkSynergy.add(item);
+		for(item of 방패대) checkSynergy.add(item);
+	}
+	else if(name == '애니'){
+		//기계유망주, 황소부대, 주문투척자
+		for(item of 기계유망주) checkSynergy.add(item);
+		for(item of 황소부대) checkSynergy.add(item);
+		for(item of 주문투척자) checkSynergy.add(item);
+	}
+	else if(name == '애쉬'){
+		//레이저단, 정찰단
+		for(item of 레이저단) checkSynergy.add(item);
+		for(item of 정찰단) checkSynergy.add(item);
+	}
+	else if(name == '야스오'){
+		//레이저단, 결투가
+		for(item of 레이저단) checkSynergy.add(item);
+		for(item of 결투가) checkSynergy.add(item);
+	}
+	else if(name == '에코'){
+		//별 수호자, 방패대, 익살꾼
+		for(item of 별수호자) checkSynergy.add(item);
+		for(item of 방패대) checkSynergy.add(item);
+		for(item of 익살꾼) checkSynergy.add(item);
+	}
+	else if(name == '오공'){
+		//메카, 엄호대
+		for(item of 메카) checkSynergy.add(item);
+		for(item of 엄호대) checkSynergy.add(item);
+	}
+	else if(name == '우르곳'){
+		//위협
+		for(item of 위협) checkSynergy.add(item);
+	}
+	else if(name == '유미'){
+		//별 수호자, 마스코트, 선의
+		for(item of 별수호자) checkSynergy.add(item);
+		for(item of 마스코트) checkSynergy.add(item);
+		for(item of 선의) checkSynergy.add(item);
+	}
+	else if(name == '이즈리얼'){
+		//지하세계, 정찰단
+		for(item of 지하세계) checkSynergy.add(item);
+		for(item of 정찰단) checkSynergy.add(item);
+	}
+	else if(name == '자크'){
+		//위협
+		for(item of 위협) checkSynergy.add(item);
+	}
+	else if(name == '잔나'){
+		//민간인, 기상캐스터, 주문투척자
+		for(item of 민간인) checkSynergy.add(item);
+		for(item of 기상캐스터) checkSynergy.add(item);
+		for(item of 주문투척자) checkSynergy.add(item);
+	}
+	else if(name == '잭스'){
+		//메카, 싸움꾼
+		for(item of 메카) checkSynergy.add(item);
+		for(item of 싸움꾼) checkSynergy.add(item);
+	}
+	else if(name == '제드'){
+		//레이저단, 결투가, 해커
+		for(item of 레이저단) checkSynergy.add(item);
+		for(item of 결투가) checkSynergy.add(item);
+		for(item of 해커) checkSynergy.add(item);
+	}
+	else if(name == '조이'){
+		//기계유망주, 익살꾼, 해커
+		for(item of 기계유망주) checkSynergy.add(item);
+		for(item of 익살꾼) checkSynergy.add(item);
+		for(item of 해커) checkSynergy.add(item);
+	}
+	else if(name == '징크스'){
+		//동물특공대, 익살꾼
+		for(item of 동물특공대) checkSynergy.add(item);
+		for(item of 익살꾼) checkSynergy.add(item);
+	}
+	else if(name == '초가스'){
+		//위협
+		for(item of 위협) checkSynergy.add(item);
+	}
+	else if(name == '카밀'){
+		//자동방어체계, 무법자
+		for(item of 자동방어체계) checkSynergy.add(item);
+		for(item of 무법자) checkSynergy.add(item);
+	}
+	else if(name == '카이사'){
+		//별 수호자, 정찰단
+		for(item of 별수호자) checkSynergy.add(item);
+		for(item of 정찰단) checkSynergy.add(item);
+	}
+	else if(name == '케일'){
+		//지하세계, 결투가
+		for(item of 지하세계) checkSynergy.add(item);
+		for(item of 결투가) checkSynergy.add(item);
+	}
+	else if(name == '탈론'){
+		//황소부대, 무법자
+		for(item of 황소부대) checkSynergy.add(item);
+		for(item of 무법자) checkSynergy.add(item);
+	}
+	else if(name == '탈리야'){
+		//별 수호자, 주문투척자
+		for(item of 별수호자) checkSynergy.add(item);
+		for(item of 주문투척자) checkSynergy.add(item);
+	}
+	else if(name == '피들스틱'){
+		//위협, 타락
+		for(item of 위협) checkSynergy.add(item);
+		for(item of 타락) checkSynergy.add(item);
+	}
+	else if(name == '피오라'){
+		//황소부대, 결투가
+		for(item of 황소부대) checkSynergy.add(item);
+		for(item of 결투가) checkSynergy.add(item);
+	}
+
