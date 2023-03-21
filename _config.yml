@@ -15,7 +15,7 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "롤체 사기주사위"
-keywords:    "롤토체스,롤토체스 사기주사위,롤체,사기주사위,롤체 사기주사위,tft,tft 사기 주사위,롤체 확률"
+keywords:    "롤토체스,롤토체스 사기주사위,롤체,사기주사위,롤체 사기주사위,tft,tft 사기 주사위,롤체 확률,시즌 8.5,8.5"
 description: "롤토체스 사기주사위 확률을 계산하여 보여줍니다."
 source_link: "https://atomic0x90.github.io/"
 favicon:     "/img/tft.png"
